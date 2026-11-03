@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "namecheap-email": {
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Users\\Grant\\Documents\\Codex\\2026-09-11\\referenced-chatgpt-conversation-this-is-an\\outputs\\namecheap-email\\scripts\\run.ps1"
+      ],
+      "startup_timeout_sec": 30,
+      "tool_timeout_sec": 180
+    }
+  }
+}

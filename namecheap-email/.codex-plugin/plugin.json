@@ -1,0 +1,24 @@
+{
+  "name": "namecheap-email",
+  "version": "0.1.0",
+  "description": "Read-only local access to Namecheap Private Email over verified IMAP TLS.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Namecheap Email",
+    "shortDescription": "Search and read your private email securely.",
+    "longDescription": "Local read-only IMAP email search, header lists and plain-text message reading. Windows Credential Manager stores the mailbox login.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "List my 10 newest Namecheap emails.",
+      "Search my Namecheap inbox for invoices."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
